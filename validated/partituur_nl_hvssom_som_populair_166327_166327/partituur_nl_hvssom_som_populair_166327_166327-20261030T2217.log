@@ -1,0 +1,267 @@
+2026-10-30 22:17:59,374 INFO [partituur_nl_hvssom_som_populair_166327_166327]                 Book.java:560  | 5 sheets in C:\Users\Teodora\sheet2midi\scans\partituur_nl_hvssom_som_populair_166327_166327.pdf
+2026-10-30 22:17:59,485 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-30 22:17:59,485 INFO []                 Book.java:2525 | Book stored as C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_166327_166327\partituur_nl_hvssom_som_populair_166327_166327.omr
+2026-10-30 22:17:59,489 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3#4#5]
+2026-10-30 22:17:59,490 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]       StepMonitoring.java:98   | LOAD
+2026-10-30 22:18:00,080 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]            SheetStub.java:1278 | Loaded image #1 3100x3849 from C:\Users\Teodora\sheet2midi\scans\partituur_nl_hvssom_som_populair_166327_166327.pdf
+2026-10-30 22:18:00,082 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]       StepMonitoring.java:98   | BINARY
+2026-10-30 22:18:00,842 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]       StepMonitoring.java:98   | SCALE
+2026-10-30 22:18:00,858 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]                 Book.java:543  | Created scores: []
+2026-10-30 22:18:00,859 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]            SheetStub.java:1194 | Sheet partituur_nl_hvssom_som_populair_166327_166327#1 flagged as invalid.
+2026-10-30 22:18:00,859 WARN [partituur_nl_hvssom_som_populair_166327_166327#1]                 Book.java:2044 | Error processing stub org.audiveris.omr.step.StepException: No regularly spaced lines found
+java.util.concurrent.ExecutionException: org.audiveris.omr.step.StepException: No regularly spaced lines found
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:519)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1405)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:2035)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:885)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+Caused by: org.audiveris.omr.step.StepException: No regularly spaced lines found
+	at org.audiveris.omr.sheet.ScaleBuilder$HistoKeeper.retrieveInterlinePeaks(ScaleBuilder.java:746)
+	at org.audiveris.omr.sheet.ScaleBuilder.doRetrieveScale(ScaleBuilder.java:355)
+	at org.audiveris.omr.sheet.ScaleBuilder.retrieveScale(ScaleBuilder.java:445)
+	at org.audiveris.omr.step.ScaleStep.doit(ScaleStep.java:64)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:503)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-30 22:18:00,860 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]                 Book.java:2584 | Book{partituur_nl_hvssom_som_populair_166327_166327} storing
+2026-10-30 22:18:00,878 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]                 Book.java:2565 | Stored /book.xml
+2026-10-30 22:18:01,000 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-30 22:18:01,165 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-30 22:18:01,165 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]                 Book.java:2525 | Book stored as C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_166327_166327\partituur_nl_hvssom_som_populair_166327_166327.omr
+2026-10-30 22:18:01,173 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-10-30 22:18:01,188 INFO [partituur_nl_hvssom_som_populair_166327_166327#1]                 Book.java:2050 | End of Stub#1
+2026-10-30 22:18:01,189 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | LOAD
+2026-10-30 22:18:01,693 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]            SheetStub.java:1278 | Loaded image #2 3118x3795 from C:\Users\Teodora\sheet2midi\scans\partituur_nl_hvssom_som_populair_166327_166327.pdf
+2026-10-30 22:18:01,693 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | BINARY
+2026-10-30 22:18:02,407 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | SCALE
+2026-10-30 22:18:02,413 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]         ScaleBuilder.java:254  | Beam  guessed height: 13 -- 0.25 of [10..21] range
+2026-10-30 22:18:02,413 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]         ScaleBuilder.java:271  | Beam measured height: 18 -- 0.73 of [10..21] range at 119% of needed quorum
+2026-10-30 22:18:02,414 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]         ScaleBuilder.java:401  | Normalized black jitter: 13.64 %
+2026-10-30 22:18:02,414 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]            ScaleStep.java:65   | Scale{ interline(21,22,23) line(2,3,5) beam(18)}
+2026-10-30 22:18:02,414 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | GRID
+2026-10-30 22:18:03,055 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       LinesRetriever.java:1508 | Global slope: -0.00165
+2026-10-30 22:18:03,095 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]    ClustersRetriever.java:326  | Retrieved raw line clusters: 6 of sizes [5] with interline(21,22,23)
+2026-10-30 22:18:03,371 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]            PeakGraph.java:310  | Systems: #1[1, 2, 3] #2[4, 5, 6]
+2026-10-30 22:18:04,085 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]        SystemManager.java:134  | Indentation detected for system #1
+2026-10-30 22:18:04,086 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]        SystemManager.java:800  | 2 parts along 2 systems
+2026-10-30 22:18:04,087 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-30 22:18:04,087 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | HEADERS
+2026-10-30 22:18:05,209 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-30 22:18:05,350 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]        StemSeedsStep.java:86   | stem(5 max:6)
+2026-10-30 22:18:05,413 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | BEAMS
+2026-10-30 22:18:13,805 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | LEDGERS
+2026-10-30 22:18:14,320 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | HEADS
+2026-10-30 22:18:17,990 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:1.0,R:0.0] NOTEHEAD_BLACK[L:0.3,R:0.2]}
+2026-10-30 22:18:17,990 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | STEMS
+2026-10-30 22:18:18,784 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | REDUCTION
+2026-10-30 22:18:18,895 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]        ReductionStep.java:105  | Stems free length median value: 72 pixels, 3.3 interlines
+2026-10-30 22:18:18,898 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-30 22:18:18,899 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-30 22:18:18,899 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | TEXTS
+2026-10-30 22:18:19,093 WARN [partituur_nl_hvssom_som_populair_166327_166327#2]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-10-30 22:18:19,094 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-10-30 22:18:19,099 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | MEASURES
+2026-10-30 22:18:19,102 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]                 Page.java:307  | 11 raw measures: [5 in system#1, 6 in system#2]
+2026-10-30 22:18:19,103 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | CHORDS
+2026-10-30 22:18:19,110 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | CURVES
+2026-10-30 22:18:20,387 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]         SlursBuilder.java:240  | Slurs: 4
+2026-10-30 22:18:20,402 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]      SegmentsBuilder.java:155  | Segments: 8
+2026-10-30 22:18:20,408 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | SYMBOLS
+2026-10-30 22:18:23,053 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | LINKS
+2026-10-30 22:18:23,078 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#3657{(0.310) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=2356,y=2438]
+2026-10-30 22:18:23,079 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#3663{(0.351) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=2382,y=2435]
+2026-10-30 22:18:23,091 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | RHYTHMS
+2026-10-30 22:18:23,132 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]       StepMonitoring.java:98   | PAGE
+2026-10-30 22:18:23,138 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]                 Book.java:2584 | Book{partituur_nl_hvssom_som_populair_166327_166327} storing
+2026-10-30 22:18:23,191 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]                 Book.java:2565 | Stored /book.xml
+2026-10-30 22:18:23,322 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-10-30 22:18:23,751 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-30 22:18:23,751 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]                 Book.java:2525 | Book stored as C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_166327_166327\partituur_nl_hvssom_som_populair_166327_166327.omr
+2026-10-30 22:18:23,759 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-10-30 22:18:23,793 INFO [partituur_nl_hvssom_som_populair_166327_166327#2]                 Book.java:2050 | End of Stub#2
+2026-10-30 22:18:23,793 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | LOAD
+2026-10-30 22:18:24,126 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]            SheetStub.java:1278 | Loaded image #3 3095x3801 from C:\Users\Teodora\sheet2midi\scans\partituur_nl_hvssom_som_populair_166327_166327.pdf
+2026-10-30 22:18:24,127 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | BINARY
+2026-10-30 22:18:24,802 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | SCALE
+2026-10-30 22:18:24,839 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]         ScaleBuilder.java:254  | Beam  guessed height: 13 -- 0.25 of [10..21] range
+2026-10-30 22:18:24,840 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]         ScaleBuilder.java:271  | Beam measured height: 19 -- 0.82 of [10..21] range at 80% of needed quorum
+2026-10-30 22:18:24,840 WARN [partituur_nl_hvssom_som_populair_166327_166327#3]         ScaleBuilder.java:300  | No reliable beam height found, guessed value: 13
+2026-10-30 22:18:24,840 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]         ScaleBuilder.java:401  | Normalized black jitter: 13.64 %
+2026-10-30 22:18:24,840 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]            ScaleStep.java:65   | Scale{ interline(21,22,23) line(1,2,4) beam(13 extra)}
+2026-10-30 22:18:24,840 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | GRID
+2026-10-30 22:18:25,377 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       LinesRetriever.java:1508 | Global slope: 0.00025
+2026-10-30 22:18:25,406 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]    ClustersRetriever.java:326  | Retrieved raw line clusters: 9 of sizes [5] with interline(21,22,23)
+2026-10-30 22:18:25,689 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]            PeakGraph.java:310  | Systems: #1[1, 2, 3] #2[4, 5, 6] #3[7, 8, 9]
+2026-10-30 22:18:26,188 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]        SystemManager.java:800  | 2 parts along 3 systems
+2026-10-30 22:18:26,189 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | HEADERS
+2026-10-30 22:18:26,592 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-30 22:18:26,654 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]        StemSeedsStep.java:86   | stem(5 max:5)
+2026-10-30 22:18:26,678 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | BEAMS
+2026-10-30 22:18:31,192 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | LEDGERS
+2026-10-30 22:18:31,437 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | HEADS
+2026-10-30 22:18:36,358 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.3,R:0.1] NOTEHEAD_BLACK[L:0.2,R:0.1]}
+2026-10-30 22:18:36,358 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | STEMS
+2026-10-30 22:18:36,787 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | REDUCTION
+2026-10-30 22:18:36,869 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.3 interlines
+2026-10-30 22:18:36,870 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-30 22:18:36,871 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-30 22:18:36,871 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | TEXTS
+2026-10-30 22:18:37,015 WARN [partituur_nl_hvssom_som_populair_166327_166327#3]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-10-30 22:18:37,016 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-10-30 22:18:37,017 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | MEASURES
+2026-10-30 22:18:37,019 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]                 Page.java:307  | 16 raw measures: [6 in system#1, 5 in system#2, 5 in system#3]
+2026-10-30 22:18:37,019 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | CHORDS
+2026-10-30 22:18:37,026 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | CURVES
+2026-10-30 22:18:38,155 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]         SlursBuilder.java:240  | Slurs: 9
+2026-10-30 22:18:38,158 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]      SegmentsBuilder.java:155  | Segments: 8
+2026-10-30 22:18:38,158 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | SYMBOLS
+2026-10-30 22:18:40,760 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | LINKS
+2026-10-30 22:18:40,785 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5517{(0.216) staff:7 OTTAVA BASSA} at java.awt.Point[x=1163,y=2705]
+2026-10-30 22:18:40,785 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5529{(0.180) staff:7 QUINDICESIMA BASSA} at java.awt.Point[x=1169,y=2705]
+2026-10-30 22:18:40,793 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | RHYTHMS
+2026-10-30 22:18:40,793 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]           PageRhythm.java:199  | {Page#3.1} Time value reused from sheet#2
+2026-10-30 22:18:40,819 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]       StepMonitoring.java:98   | PAGE
+2026-10-30 22:18:40,820 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]                 Book.java:2584 | Book{partituur_nl_hvssom_som_populair_166327_166327} storing
+2026-10-30 22:18:40,879 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]                 Book.java:2565 | Stored /book.xml
+2026-10-30 22:18:40,976 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2026-10-30 22:18:41,365 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-30 22:18:41,365 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]                 Book.java:2525 | Book stored as C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_166327_166327\partituur_nl_hvssom_som_populair_166327_166327.omr
+2026-10-30 22:18:41,374 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-10-30 22:18:41,400 INFO [partituur_nl_hvssom_som_populair_166327_166327#3]                 Book.java:2050 | End of Stub#3
+2026-10-30 22:18:41,401 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | LOAD
+2026-10-30 22:18:41,770 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]            SheetStub.java:1278 | Loaded image #4 3175x3857 from C:\Users\Teodora\sheet2midi\scans\partituur_nl_hvssom_som_populair_166327_166327.pdf
+2026-10-30 22:18:41,771 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | BINARY
+2026-10-30 22:18:42,490 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | SCALE
+2026-10-30 22:18:42,496 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]         ScaleBuilder.java:254  | Beam  guessed height: 13 -- 0.25 of [10..21] range
+2026-10-30 22:18:42,497 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]         ScaleBuilder.java:271  | Beam measured height: 19 -- 0.82 of [10..21] range at 48% of needed quorum
+2026-10-30 22:18:42,497 WARN [partituur_nl_hvssom_som_populair_166327_166327#4]         ScaleBuilder.java:300  | No reliable beam height found, guessed value: 13
+2026-10-30 22:18:42,497 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]         ScaleBuilder.java:401  | Normalized black jitter: 13.64 %
+2026-10-30 22:18:42,497 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]            ScaleStep.java:65   | Scale{ interline(21,22,23) line(1,2,4) beam(13 extra)}
+2026-10-30 22:18:42,497 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | GRID
+2026-10-30 22:18:43,219 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       LinesRetriever.java:1508 | Global slope: 0.00025
+2026-10-30 22:18:43,242 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]    ClustersRetriever.java:326  | Retrieved raw line clusters: 12 of sizes [5] with interline(21,22,23)
+2026-10-30 22:18:43,500 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]            PeakGraph.java:310  | Systems: #1[1, 2, 3] #2[4, 5, 6] #3[7, 8, 9] #4[10, 11, 12]
+2026-10-30 22:18:44,171 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        SystemManager.java:800  | 2 parts along 4 systems
+2026-10-30 22:18:44,172 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | HEADERS
+2026-10-30 22:18:44,600 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-30 22:18:44,675 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        StemSeedsStep.java:86   | stem(4 max:5)
+2026-10-30 22:18:44,687 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | BEAMS
+2026-10-30 22:18:49,620 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | LEDGERS
+2026-10-30 22:18:49,968 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | HEADS
+2026-10-30 22:18:56,531 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.1,R:0.1] NOTEHEAD_BLACK[L:0.4,R:0.2]}
+2026-10-30 22:18:56,532 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | STEMS
+2026-10-30 22:18:57,085 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | REDUCTION
+2026-10-30 22:18:57,148 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        ReductionStep.java:105  | Stems free length median value: 72 pixels, 3.3 interlines
+2026-10-30 22:18:57,151 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-30 22:18:57,151 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-30 22:18:57,151 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | TEXTS
+2026-10-30 22:18:57,328 WARN [partituur_nl_hvssom_som_populair_166327_166327#4]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-10-30 22:18:57,329 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-10-30 22:18:57,330 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | MEASURES
+2026-10-30 22:18:57,332 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                 Page.java:307  | 24 raw measures: [5 in system#1, 7 in system#2, 6 in system#3, 6 in system#4]
+2026-10-30 22:18:57,332 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | CHORDS
+2026-10-30 22:18:57,340 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | CURVES
+2026-10-30 22:18:58,795 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]         SlursBuilder.java:240  | Slurs: 14
+2026-10-30 22:18:58,816 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]      SegmentsBuilder.java:155  | Segments: 27
+2026-10-30 22:18:58,817 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | SYMBOLS
+2026-10-30 22:19:01,605 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | LINKS
+2026-10-30 22:19:01,606 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7185{(0.266) staff:3 OTTAVA BASSA} at java.awt.Point[x=1044,y=1231]
+2026-10-30 22:19:01,618 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7526{(0.151) staff:4 OTTAVA BASSA} at java.awt.Point[x=2462,y=1411]
+2026-10-30 22:19:01,637 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#7785{(0.142) staff:12 QUINDICESIMA BASSA} at java.awt.Point[x=1584,y=3530]
+2026-10-30 22:19:01,652 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | RHYTHMS
+2026-10-30 22:19:01,653 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]           PageRhythm.java:199  | {Page#4.1} Time value reused from sheet#2
+2026-10-30 22:19:01,660 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#1 excess:1/16} too long
+2026-10-30 22:19:01,661 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#2 excess:1/16} too long
+2026-10-30 22:19:01,661 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#5 excess:1/16} too long
+2026-10-30 22:19:01,661 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#6 excess:1/16} too long
+2026-10-30 22:19:01,661 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]          StackRhythm.java:224  | S1 MeasureStack#4 no correct rhythm
+2026-10-30 22:19:01,669 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#10P2} Voice{#5 excess:1/8} too long
+2026-10-30 22:19:01,670 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]          StackRhythm.java:224  | S2 MeasureStack#10 no correct rhythm
+2026-10-30 22:19:01,678 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#16P1} Voice{#1 excess:1/16} too long
+2026-10-30 22:19:01,679 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]          StackRhythm.java:224  | S3 MeasureStack#16 no correct rhythm
+2026-10-30 22:19:01,684 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        MeasureRhythm.java:1044 | Measure{#20P2} No timeOffset for HeadChordInter#5613{(0.944/0.944) staff:11 slot#3 dur:1/4}
+2026-10-30 22:19:01,684 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        MeasureRhythm.java:1044 | Measure{#20P2} No timeOffset for HeadChordInter#5635{(0.931/0.931) staff:12 slot#3 dur:1/4}
+2026-10-30 22:19:01,685 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]        MeasureRhythm.java:1044 | Measure{#20P2} No timeOffset for HeadChordInter#5634{(0.925/0.925) staff:12 slot#3 dur:1/4}
+2026-10-30 22:19:01,685 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#20P2} Voice{#1 excess:1/4} too long
+2026-10-30 22:19:01,685 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#20P2} Voice{#6 excess:1/4} too long
+2026-10-30 22:19:01,685 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]          StackRhythm.java:224  | S4 MeasureStack#20 no correct rhythm
+2026-10-30 22:19:01,694 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]       StepMonitoring.java:98   | PAGE
+2026-10-30 22:19:01,695 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#1 excess:1/16} too long
+2026-10-30 22:19:01,695 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#2 excess:1/16} too long
+2026-10-30 22:19:01,696 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#5 excess:1/16} too long
+2026-10-30 22:19:01,696 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#4P2} Voice{#6 excess:1/16} too long
+2026-10-30 22:19:01,696 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#10P2} Voice{#5 excess:1/8} too long
+2026-10-30 22:19:01,697 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#16P1} Voice{#1 excess:1/16} too long
+2026-10-30 22:19:01,697 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#20P2} Voice{#1 excess:1/4} too long
+2026-10-30 22:19:01,697 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Voice.java:257  | Measure{#20P2} Voice{#6 excess:1/4} too long
+2026-10-30 22:19:01,697 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                 Book.java:2584 | Book{partituur_nl_hvssom_som_populair_166327_166327} storing
+2026-10-30 22:19:01,760 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                 Book.java:2565 | Stored /book.xml
+2026-10-30 22:19:01,858 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2026-10-30 22:19:02,333 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-30 22:19:02,333 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                 Book.java:2525 | Book stored as C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_166327_166327\partituur_nl_hvssom_som_populair_166327_166327.omr
+2026-10-30 22:19:02,344 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]            SheetStub.java:1655 | Sheet#4 disposed
+2026-10-30 22:19:02,370 INFO [partituur_nl_hvssom_som_populair_166327_166327#4]                 Book.java:2050 | End of Stub#4
+2026-10-30 22:19:02,370 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | LOAD
+2026-10-30 22:19:02,686 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]            SheetStub.java:1278 | Loaded image #5 3132x3816 from C:\Users\Teodora\sheet2midi\scans\partituur_nl_hvssom_som_populair_166327_166327.pdf
+2026-10-30 22:19:02,686 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | BINARY
+2026-10-30 22:19:03,380 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | SCALE
+2026-10-30 22:19:03,383 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]         ScaleBuilder.java:254  | Beam  guessed height: 13 -- 0.25 of [10..21] range
+2026-10-30 22:19:03,383 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]         ScaleBuilder.java:271  | Beam measured height: 19 -- 0.82 of [10..21] range at 56% of needed quorum
+2026-10-30 22:19:03,383 WARN [partituur_nl_hvssom_som_populair_166327_166327#5]         ScaleBuilder.java:300  | No reliable beam height found, guessed value: 13
+2026-10-30 22:19:03,383 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]         ScaleBuilder.java:401  | Normalized black jitter: 13.64 %
+2026-10-30 22:19:03,383 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]            ScaleStep.java:65   | Scale{ interline(21,22,23) line(1,2,4) beam(13 extra)}
+2026-10-30 22:19:03,383 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | GRID
+2026-10-30 22:19:03,823 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       LinesRetriever.java:1508 | Global slope: 0.00000
+2026-10-30 22:19:03,850 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]    ClustersRetriever.java:326  | Retrieved raw line clusters: 11 of sizes [5] with interline(21,22,23)
+2026-10-30 22:19:04,040 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]            PeakGraph.java:310  | Systems: #1[1, 2, 3] #2[4, 5, 6] #3[7, 8, 9] #4[10, 11]
+2026-10-30 22:19:04,514 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]        SystemManager.java:800  | 2 parts along 4 systems
+2026-10-30 22:19:04,514 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | HEADERS
+2026-10-30 22:19:04,827 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-30 22:19:04,870 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]        StemSeedsStep.java:86   | stem(4 max:5)
+2026-10-30 22:19:04,884 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | BEAMS
+2026-10-30 22:19:09,424 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | LEDGERS
+2026-10-30 22:19:09,643 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | HEADS
+2026-10-30 22:19:15,841 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.2,R:-0.0] NOTEHEAD_BLACK[L:0.2,R:0.1]}
+2026-10-30 22:19:15,842 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | STEMS
+2026-10-30 22:19:16,330 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | REDUCTION
+2026-10-30 22:19:16,386 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]        ReductionStep.java:105  | Stems free length median value: 71 pixels, 3.2 interlines
+2026-10-30 22:19:16,389 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-30 22:19:16,389 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-30 22:19:16,389 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | TEXTS
+2026-10-30 22:19:16,575 WARN [partituur_nl_hvssom_som_populair_166327_166327#5]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-10-30 22:19:16,575 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-10-30 22:19:16,577 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | MEASURES
+2026-10-30 22:19:16,580 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]                 Page.java:307  | 24 raw measures: [6 in system#1, 6 in system#2, 6 in system#3, 6 in system#4]
+2026-10-30 22:19:16,580 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | CHORDS
+2026-10-30 22:19:16,584 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | CURVES
+2026-10-30 22:19:17,780 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]         SlursBuilder.java:240  | Slurs: 15
+2026-10-30 22:19:17,797 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]      SegmentsBuilder.java:155  | Segments: 23
+2026-10-30 22:19:17,804 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | SYMBOLS
+2026-10-30 22:19:20,075 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | LINKS
+2026-10-30 22:19:20,119 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | RHYTHMS
+2026-10-30 22:19:20,120 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]           PageRhythm.java:199  | {Page#5.1} Time value reused from sheet#4
+2026-10-30 22:19:20,149 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]       StepMonitoring.java:98   | PAGE
+2026-10-30 22:19:20,152 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]                 Book.java:2584 | Book{partituur_nl_hvssom_som_populair_166327_166327} storing
+2026-10-30 22:19:20,212 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]                 Book.java:2565 | Stored /book.xml
+2026-10-30 22:19:20,306 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]           DataHolder.java:348  | Stored /sheet#5/BINARY.png
+2026-10-30 22:19:20,740 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]                Sheet.java:1583 | Stored /sheet#5/sheet#5.xml
+2026-10-30 22:19:20,740 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]                 Book.java:2525 | Book stored as C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_166327_166327\partituur_nl_hvssom_som_populair_166327_166327.omr
+2026-10-30 22:19:20,750 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]            SheetStub.java:1655 | Sheet#5 disposed
+2026-10-30 22:19:20,776 INFO [partituur_nl_hvssom_som_populair_166327_166327#5]                 Book.java:2050 | End of Stub#5
+2026-10-30 22:19:20,777 INFO [partituur_nl_hvssom_som_populair_166327_166327]                 Book.java:2057 | End of Book{partituur_nl_hvssom_som_populair_166327_166327}
+2026-10-30 22:19:20,777 WARN [partituur_nl_hvssom_som_populair_166327_166327]                  CLI.java:956  | Exception occurred java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+2026-10-30 22:19:20,804 INFO [partituur_nl_hvssom_som_populair_166327_166327]                Score.java:181  | Closing {Score 1}
