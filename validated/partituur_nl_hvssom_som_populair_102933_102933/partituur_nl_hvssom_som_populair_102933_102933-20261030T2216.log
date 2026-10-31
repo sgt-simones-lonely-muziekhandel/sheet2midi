@@ -1,0 +1,6 @@
+2026-10-30 22:16:39,221 INFO [partituur_nl_hvssom_som_populair_102933_102933]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-10-30 22:16:39,881 INFO [partituur_nl_hvssom_som_populair_102933_102933]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-10-30 22:16:40,459 INFO [partituur_nl_hvssom_som_populair_102933_102933]            SheetStub.java:1000 | Loaded /sheet#4/sheet#4.xml
+2026-10-30 22:16:40,844 INFO [partituur_nl_hvssom_som_populair_102933_102933]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#2#3#4]
+2026-10-30 22:16:41,084 INFO [partituur_nl_hvssom_som_populair_102933_102933]        ScoreExporter.java:164  | Score partituur_nl_hvssom_som_populair_102933_102933 exported to C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_102933_102933\partituur_nl_hvssom_som_populair_102933_102933.mxl
+2026-10-30 22:16:41,173 INFO [partituur_nl_hvssom_som_populair_102933_102933]                Score.java:181  | Closing {Score 1}
