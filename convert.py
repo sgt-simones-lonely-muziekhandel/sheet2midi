@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_AUDIVERIS = Path(r"C:\Program Files\Audiveris\Audiveris.exe")
-TIMEOUT_SECONDS = 30 * 60
+TIMEOUT_SECONDS = 4 * 60 * 60
 
 
 def pdf_to_mxl(pdf, output, audiveris):
@@ -45,12 +45,16 @@ def main():
     parser.add_argument("--audiveris", type=Path, default=DEFAULT_AUDIVERIS)
     args = parser.parse_args()
 
-    pdfs = args.pdfs or sorted((ROOT / "scans").glob("*.pdf"))
+    # Smallest first, so an interrupted run has finished as many scores as possible.
+    pdfs = args.pdfs or sorted((ROOT / "scans").glob("*.pdf"), key=lambda p: p.stat().st_size)
     if not pdfs:
         sys.exit("No PDFs found")
 
     failed = []
     for pdf in pdfs:
+        if any((args.output / pdf.stem).glob("*.mxl")):
+            print(f"{pdf.name}: already converted, skipping", flush=True)
+            continue
         print(f"{pdf.name}: converting...", flush=True)
         try:
             mxls = pdf_to_mxl(pdf, args.output, args.audiveris)
