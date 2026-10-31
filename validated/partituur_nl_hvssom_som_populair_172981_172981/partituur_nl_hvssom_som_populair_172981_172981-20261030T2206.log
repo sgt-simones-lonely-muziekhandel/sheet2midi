@@ -1,0 +1,15 @@
+2026-10-30 22:06:01,495 INFO [partituur_nl_hvssom_som_populair_172981_172981]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-30 22:06:01,973 INFO [partituur_nl_hvssom_som_populair_172981_172981]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-10-30 22:06:02,282 INFO [partituur_nl_hvssom_som_populair_172981_172981]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1#2]
+2026-10-30 22:06:02,283 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#1 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-10-30 22:06:02,306 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#1 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 2
+2026-10-30 22:06:02,319 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#1 System#1 Part#4{ staves[1,2] configs:[5,5]} dummyPart id: 3
+2026-10-30 22:06:02,328 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#1 System#2 Part#1{ staves[3] configs:[5]} dummyPart id: 4
+2026-10-30 22:06:02,329 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#1 System#3 Part#1{ staves[6] configs:[5]} dummyPart id: 4
+2026-10-30 22:06:02,330 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#1 System#4 Part#1{ staves[9] configs:[5]} dummyPart id: 4
+2026-10-30 22:06:02,353 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#2 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 4
+2026-10-30 22:06:02,354 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#2 System#2 Part#1{ staves[4] configs:[5]} dummyPart id: 4
+2026-10-30 22:06:02,354 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#2 System#3 Part#1{ staves[7] configs:[5]} dummyPart id: 4
+2026-10-30 22:06:02,355 INFO [partituur_nl_hvssom_som_populair_172981_172981]                 Part.java:351  | Sheet#2 System#4 Part#1{ staves[10] configs:[5]} dummyPart id: 4
+2026-10-30 22:06:02,446 INFO [partituur_nl_hvssom_som_populair_172981_172981]        ScoreExporter.java:164  | Score partituur_nl_hvssom_som_populair_172981_172981 exported to C:\Users\Teodora\sheet2midi\output\partituur_nl_hvssom_som_populair_172981_172981\partituur_nl_hvssom_som_populair_172981_172981.mxl
+2026-10-30 22:06:02,506 INFO [partituur_nl_hvssom_som_populair_172981_172981]                Score.java:181  | Closing {Score 1}
